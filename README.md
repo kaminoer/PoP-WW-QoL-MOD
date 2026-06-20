@@ -14,3 +14,6 @@ If you notice any other effects disappear when you disable blur/bloom, modify yo
 Set your blur/bloom remover in the `d3d9.ini` file:
 - `mode=skip`: let the mips render normally but drop the final composite quad that blends them back, so brightness is preserved. You can finetune this mode with `compositeMaxTris`
 - `mode=black`: clear the bloom render-target mips to black and skip drawing them. WW blends the scene toward the blurred image, which gives it a darker mood.
+
+## ReShade support
+To use ReShade with this mod, rename ReShade's `d3d9.dll` to `d3d9_reshade.dll` and place it next to `POP2.exe`.
