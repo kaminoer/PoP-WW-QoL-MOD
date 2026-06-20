@@ -4,7 +4,7 @@ This mod lets you disable post-processing effects in WW.
 # Features
 - Blur/bloom disabled by default.
     - Press F12 to toggle blur/bloom.
- - Unlike SoT, there is no overwhelming fog effect in WW. While present, the fog effect is dead code and never runs.
+ - Unlike SoT, there is no overwhelming fog effect in WW that cannot be disabled. If you want to disable fog, you can do it in the Graphics settings.
 <img width="1720" height="2151" alt="v1.1" src="https://github.com/user-attachments/assets/ab7d5bc0-f643-422a-9c20-dea5e826d46a" />
 
 
