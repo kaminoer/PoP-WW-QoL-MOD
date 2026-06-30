@@ -9,7 +9,7 @@ This mod lets you disable post-processing effects in WW.
 
 
 # Installation
-Download [PoP_WW_qol.zip](https://github.com/kaminoer/PoP-WW-QoL-MOD-/releases/download/v1.0/PoP_WW_qol.zip) and unpack its content to your game folder, next to POP2.exe. 
+Download [PoP_WW_qol.zip](https://github.com/kaminoer/PoP-WW-QoL-MOD/releases/download/v1.2/PoP_WW_qol_v1.2.zip) and unpack its content to your game folder, next to POP2.exe. 
 If you notice any other effects disappear when you disable blur/bloom, modify your `maxDim` value in `d3d9.ini`.
 Set your blur/bloom remover in the `d3d9.ini` file:
 - `mode=skip`: let the mips render normally but drop the final composite quad that blends them back, so brightness is preserved. You can finetune this mode with `compositeMaxTris`
